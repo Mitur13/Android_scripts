@@ -12,6 +12,10 @@ adb shell mount -o rw,remount /vendor/dsp
 adb push aptx_adaptive_enc_module.so.1 /vendor/dsp/adsp
 adb push libaptXAdaptiveEnc.so /vendor/dsp/adsp
 adb push libaptXAdaptiveEnc3.so /vendor/dsp/adsp
+adb push aptx_adaptive_speech_dec_module.so.1 /vendor/dsp/adsp
+adb push aptx_adaptive_speech_enc_module.so.1 /vendor/dsp/adsp
+adb push aptx_classic_enc_module.so.1 /vendor/dsp/adsp
+adb push aptx_hd_enc_module.so.1 /vendor/dsp/adsp
 
 @echo off
 
